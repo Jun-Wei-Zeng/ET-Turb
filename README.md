@@ -1,2 +1,1 @@
-# ET-Turb
-coming soon
+# Coming Soon！
