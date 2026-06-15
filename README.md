@@ -33,7 +33,7 @@ Star &#127775; us if you think it is helpful!
 ## &#129504; Network Figure
 
 <div align="center">
-  <img src="assets/pipeline.png" alt="ET-MTF turbulence synthesis pipeline" width="95%">
+  <img src="pipeline.png" alt="ET-MTF turbulence synthesis pipeline" width="95%">
 </div>
 
 ET-MTF models turbulence-induced blur as a continuous function of exposure-time. The pipeline decomposes turbulence degradation into geometric tilt and exposure-time-dependent blur, then derives a tilt-invariant PSF from ET-MTF and combines it with a spatially varying blur-width field.
