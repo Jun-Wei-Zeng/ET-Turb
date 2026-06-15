@@ -5,8 +5,7 @@
   <a href="https://github.com/Jun-Wei-Zeng/ET-Turb"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
   <a href="https://arxiv.org/abs/2603.01398"><img src="https://img.shields.io/static/v1?label=arXiv&message=2603.01398&color=b31b1b&logo=arxiv"></a> &ensp;
   <a href="https://cvpr.thecvf.com/Conferences/2026"><img src="https://img.shields.io/static/v1?label=CVPR&message=2026&color=green"></a> &ensp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Dataset&message=Will%20be%20released&color=yellow"></a> &ensp;
-  <a href="https://arxiv.org/abs/2603.01398"><img src="https://img.shields.io/static/v1?label=Paper&message=CVPR%202026&color=red"></a>
+  <a href=""><img src="https://img.shields.io/static/v1?label=Dataset&message=Will%20be%20released&color=yellow"></a> &ensp
 </div>
 
 <div align="center">
