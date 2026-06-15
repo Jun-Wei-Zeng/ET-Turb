@@ -3,8 +3,10 @@
 <div align="center">
   <a href="https://github.com/Jun-Wei-Zeng/ET-Turb"><img src="https://img.shields.io/static/v1?label=Code&message=Github&color=blue&logo=github"></a> &ensp;
   <a href="https://github.com/Jun-Wei-Zeng/ET-Turb"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
+  <a href="https://arxiv.org/abs/2603.01398"><img src="https://img.shields.io/static/v1?label=arXiv&message=2603.01398&color=b31b1b&logo=arxiv"></a> &ensp;
+  <a href="https://cvpr.thecvf.com/Conferences/2026"><img src="https://img.shields.io/static/v1?label=CVPR&message=2026&color=green"></a> &ensp;
   <a href=""><img src="https://img.shields.io/static/v1?label=Dataset&message=Will%20be%20released&color=yellow"></a> &ensp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Paper&message=CVPR%202026&color=red"></a>
+  <a href="https://arxiv.org/abs/2603.01398"><img src="https://img.shields.io/static/v1?label=Paper&message=CVPR%202026&color=red"></a>
 </div>
 
 <div align="center">
@@ -19,15 +21,19 @@ Nanjing University of Aeronautics and Astronautics &nbsp; | &nbsp; Lanzhou Unive
 
 ## &#128226; Breaking News
 
-- [15 Jun, 2026] ET-Turb project page is released.
-- Dataset will be released.
+- [Mar. 2026] ET-Turb was accepted by [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026).
+- [Mar. 2026] ET-Turb was uploaded to [arXiv](https://arxiv.org/abs/2603.01398).
 
 Star &#127775; us if you think it is helpful!
+
+## &#9989; Todo List
+
+- [ ] Release the ET-Turb dataset.
 
 ## &#129504; Network Figure
 
 <div align="center">
-  <img src="assets/pipeline.svg" alt="ET-MTF turbulence synthesis pipeline" width="95%">
+  <img src="assets/pipeline.png" alt="ET-MTF turbulence synthesis pipeline" width="95%">
 </div>
 
 ET-MTF models turbulence-induced blur as a continuous function of exposure-time. The pipeline decomposes turbulence degradation into geometric tilt and exposure-time-dependent blur, then derives a tilt-invariant PSF from ET-MTF and combines it with a spatially varying blur-width field.
