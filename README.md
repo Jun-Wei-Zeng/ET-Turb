@@ -1,51 +1,141 @@
-# <div align="center"> ET-Turb: Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis </div>
+<h1 align="center">ET-Turb</h1>
 
-<div align="center">
-  <a href="https://github.com/Jun-Wei-Zeng/ET-Turb"><img src="https://img.shields.io/static/v1?label=Code&message=Github&color=blue&logo=github"></a> &ensp;
-  <a href="https://github.com/Jun-Wei-Zeng/ET-Turb"><img src="https://img.shields.io/static/v1?label=Project%20Page&message=Github&color=blue&logo=github-pages"></a> &ensp;
-  <a href="https://arxiv.org/abs/2603.01398"><img src="https://img.shields.io/static/v1?label=arXiv&message=2603.01398&color=b31b1b&logo=arxiv"></a> &ensp;
-  <a href="https://cvpr.thecvf.com/Conferences/2026"><img src="https://img.shields.io/static/v1?label=CVPR&message=2026&color=green"></a> &ensp;
-  <a href=""><img src="https://img.shields.io/static/v1?label=Dataset&message=Will%20be%20released&color=yellow"></a>
-</div>
+<h3 align="center">Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis</h3>
 
-<div align="center">
+<p align="center"><strong>CVPR 2026</strong></p>
 
-Junwei Zeng, Dong Liang, Sheng-Jun Huang, Kun Zhan, Songcan Chen
+<p align="center">
+  Junwei Zeng &nbsp;&middot;&nbsp;
+  Dong Liang &nbsp;&middot;&nbsp;
+  Sheng-Jun Huang &nbsp;&middot;&nbsp;
+  Kun Zhan &nbsp;&middot;&nbsp;
+  Songcan Chen
+</p>
 
-Nanjing University of Aeronautics and Astronautics &nbsp; | &nbsp; Lanzhou University
+<p align="center">
+  Nanjing University of Aeronautics and Astronautics
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  Lanzhou University
+</p>
 
-</div>
+<p align="center">
+  <a href="https://arxiv.org/abs/2603.01398">
+    <img src="https://img.shields.io/badge/arXiv-2603.01398-b31b1b.svg?style=flat-square" alt="arXiv">
+  </a>
+  <a href="https://cvpr.thecvf.com/Conferences/2026">
+    <img src="https://img.shields.io/badge/CVPR-2026-2ea44f.svg?style=flat-square" alt="CVPR 2026">
+  </a>
+  <a href="https://github.com/Jun-Wei-Zeng/ET-Turb">
+    <img src="https://img.shields.io/badge/Code-GitHub-181717.svg?style=flat-square&logo=github" alt="Code">
+  </a>
+  <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-f0ad4e.svg?style=flat-square" alt="Dataset coming soon">
+</p>
 
 ---
 
-## &#128226; Breaking News
+## &#128226; News
 
-- [Mar. 2026] ET-Turb was accepted by [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026).
-- [Mar. 2026] ET-Turb was uploaded to [arXiv](https://arxiv.org/abs/2603.01398).
+- **March 2026:** ET-Turb was accepted by [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026).
+- **March 2026:** The paper was released on [arXiv](https://arxiv.org/abs/2603.01398).
 
-Star &#127775; us if you think it is helpful!
+> [!TIP]
+> If ET-Turb helps your research, please consider giving this repository a star.
 
-## &#9989; Todo List
+## &#128230; Dataset
 
-- [ ] Release the ET-Turb dataset.
+> [!NOTE]
+> The ET-Turb dataset will be released.
 
-## &#129303; Dataset Download
+<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th align="center">Videos</th>
+      <th align="center">Frames</th>
+      <th align="center">Training Videos</th>
+      <th align="center">Test Videos</th>
+      <th align="center">Exposure Time</th>
+      <th align="center">Configurations</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>5,083</strong></td>
+      <td align="center"><strong>2,005,835</strong></td>
+      <td align="center">3,988</td>
+      <td align="center">1,095</td>
+      <td align="center">0.5-40 ms</td>
+      <td align="center">12</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-| Dataset | Status |
-| --- | ---: |
-| ET-Turb | Will be released |
+## &#128202; Results
 
-ET-Turb contains **5,083 videos** and **2,005,835 frames**, with **3,988 training videos** and **1,095 test videos**. Exposure-time is continuously sampled from **0.5 ms to 40 ms** across 12 optical and atmospheric configurations.
+<p align="center">
+  <strong>No-Reference Evaluation on Real Turbulence</strong><br>
+  <sub>Lower NIQE and BRISQUE scores are better.</sub>
+</p>
 
-## &#128202; No-Reference Real-Turbulence Evaluation
-
-Lower NIQE and BRISQUE scores are better.
-
-| Training Dataset | TSR-WGAN NIQE | TSR-WGAN BRISQUE | TMT NIQE | TMT BRISQUE | DATUM NIQE | DATUM BRISQUE | MambaTM NIQE | MambaTM BRISQUE |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| TMT-dynamic | 4.231 | 52.502 | 4.361 | 58.581 | 4.219 | 54.921 | 4.217 | 55.062 |
-| ATSyn-dynamic | 4.224 | 54.462 | 4.483 | 59.707 | 4.308 | 59.126 | 4.247 | 56.876 |
-| **ET-Turb** | **4.190** | **50.981** | **4.221** | **56.691** | **4.204** | **54.070** | **4.212** | **55.050** |
+<div align="center">
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" align="center">Training Dataset</th>
+      <th colspan="2" align="center">TSR-WGAN</th>
+      <th colspan="2" align="center">TMT</th>
+      <th colspan="2" align="center">DATUM</th>
+      <th colspan="2" align="center">MambaTM</th>
+    </tr>
+    <tr>
+      <th align="center">NIQE &darr;</th>
+      <th align="center">BRISQUE &darr;</th>
+      <th align="center">NIQE &darr;</th>
+      <th align="center">BRISQUE &darr;</th>
+      <th align="center">NIQE &darr;</th>
+      <th align="center">BRISQUE &darr;</th>
+      <th align="center">NIQE &darr;</th>
+      <th align="center">BRISQUE &darr;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">TMT-dynamic</td>
+      <td align="center">4.231</td>
+      <td align="center">52.502</td>
+      <td align="center">4.361</td>
+      <td align="center">58.581</td>
+      <td align="center">4.219</td>
+      <td align="center">54.921</td>
+      <td align="center">4.217</td>
+      <td align="center">55.062</td>
+    </tr>
+    <tr>
+      <td align="center">ATSyn-dynamic</td>
+      <td align="center">4.224</td>
+      <td align="center">54.462</td>
+      <td align="center">4.483</td>
+      <td align="center">59.707</td>
+      <td align="center">4.308</td>
+      <td align="center">59.126</td>
+      <td align="center">4.247</td>
+      <td align="center">56.876</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>ET-Turb</strong></td>
+      <td align="center"><strong>4.190</strong></td>
+      <td align="center"><strong>50.981</strong></td>
+      <td align="center"><strong>4.221</strong></td>
+      <td align="center"><strong>56.691</strong></td>
+      <td align="center"><strong>4.204</strong></td>
+      <td align="center"><strong>54.070</strong></td>
+      <td align="center"><strong>4.212</strong></td>
+      <td align="center"><strong>55.050</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ## &#128221; Citation
 
