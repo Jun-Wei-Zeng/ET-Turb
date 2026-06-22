@@ -47,26 +47,120 @@
 > [!NOTE]
 > The ET-Turb dataset will be released.
 
+<p align="center">
+  <strong>Parameter Sampling Ranges for ET-Turb Dataset Generation</strong><br>
+  <sub><code>[a,b]</code> denotes uniform sampling from a continuous interval; <code>{v1, ..., vn}</code> denotes uniform sampling from a discrete set.<br>All 12 configurations are sampled with equal probability.</sub>
+</p>
+
 <div align="center">
 <table>
   <thead>
     <tr>
-      <th align="center">Videos</th>
-      <th align="center">Frames</th>
-      <th align="center">Training Videos</th>
-      <th align="center">Test Videos</th>
-      <th align="center">Exposure Time</th>
-      <th align="center">Configurations</th>
+      <th align="center">Distance<br>(m)</th>
+      <th align="center">Focal Length<br>(m)</th>
+      <th align="center">F-number</th>
+      <th align="center">C<sub>n</sub><sup>2</sup><br>(10<sup>-14</sup> m<sup>-2/3</sup>)</th>
+      <th align="center">Height<br>(m)</th>
+      <th align="center">Wind Speed<br>(m/s)</th>
+      <th align="center">Exposure Time<br>(ms)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>5,083</strong></td>
-      <td align="center"><strong>2,005,835</strong></td>
-      <td align="center">3,988</td>
-      <td align="center">1,095</td>
-      <td align="center">0.5-40 ms</td>
-      <td align="center">12</td>
+      <td rowspan="2" align="center">[30,100]</td>
+      <td rowspan="2" align="center">[0.1,0.3]</td>
+      <td align="center">{2.8,4}</td>
+      <td align="center">[50,300]</td>
+      <td align="center">{4,50}</td>
+      <td align="center">[1,3]</td>
+      <td align="center">[0.5,8]</td>
+    </tr>
+    <tr>
+      <td align="center">{2.8,4,5.6}</td>
+      <td align="center">[200,500]</td>
+      <td align="center">{100,200}</td>
+      <td align="center">[3,5]</td>
+      <td align="center">[0.5,8]</td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center">[100,200]</td>
+      <td rowspan="2" align="center">[0.2,0.5]</td>
+      <td align="center">{2.8,4,5.6}</td>
+      <td align="center">[5,50]</td>
+      <td align="center">{200,400}</td>
+      <td align="center">[1,4]</td>
+      <td align="center">[1,20]</td>
+    </tr>
+    <tr>
+      <td align="center">{2.8,4,5.6,8}</td>
+      <td align="center">[20,100]</td>
+      <td align="center">{4,50}</td>
+      <td align="center">[2,6]</td>
+      <td align="center">[0.5,10]</td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center">[200,400]</td>
+      <td rowspan="2" align="center">[0.3,0.5]</td>
+      <td align="center">{2.8,4,5.6,8}</td>
+      <td align="center">[2,30]</td>
+      <td align="center">{50,100}</td>
+      <td align="center">[2,5]</td>
+      <td align="center">[1,20]</td>
+    </tr>
+    <tr>
+      <td align="center">{4,5.6,8,11}</td>
+      <td align="center">[10,40]</td>
+      <td align="center">{10,50}</td>
+      <td align="center">[3,6]</td>
+      <td align="center">[1,20]</td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center">[400,600]</td>
+      <td rowspan="2" align="center">[0.4,0.75]</td>
+      <td align="center">{4,5.6,8,11}</td>
+      <td align="center">[1,20]</td>
+      <td align="center">{50,150}</td>
+      <td align="center">[3,5]</td>
+      <td align="center">[2,40]</td>
+    </tr>
+    <tr>
+      <td align="center">{5.6,8,11,16}</td>
+      <td align="center">[10,30]</td>
+      <td align="center">{10,100}</td>
+      <td align="center">[4,7]</td>
+      <td align="center">[1,20]</td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center">[600,800]</td>
+      <td rowspan="2" align="center">[0.6,0.8]</td>
+      <td align="center">{5.6,8,11,16}</td>
+      <td align="center">[1,15]</td>
+      <td align="center">{100,300}</td>
+      <td align="center">[3,7]</td>
+      <td align="center">[2,40]</td>
+    </tr>
+    <tr>
+      <td align="center">{8,11,16,18}</td>
+      <td align="center">[2,20]</td>
+      <td align="center">{50,200}</td>
+      <td align="center">[4,8]</td>
+      <td align="center">[2,40]</td>
+    </tr>
+    <tr>
+      <td rowspan="2" align="center">[800,1000]</td>
+      <td rowspan="2" align="center">[0.8,1]</td>
+      <td align="center">{8,11,16,18}</td>
+      <td align="center">[0.5,10]</td>
+      <td align="center">{10,100}</td>
+      <td align="center">[5,9]</td>
+      <td align="center">[2,40]</td>
+    </tr>
+    <tr>
+      <td align="center">{11,16,18,24}</td>
+      <td align="center">[1,20]</td>
+      <td align="center">{4,50}</td>
+      <td align="center">[6,10]</td>
+      <td align="center">[1,20]</td>
     </tr>
   </tbody>
 </table>
