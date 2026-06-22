@@ -1,5 +1,5 @@
 <h1 align="center">
-  ET-Turb: Continuous Exposure-Time Modeling<br>
+  Continuous Exposure-Time Modeling<br>
   for Realistic Atmospheric Turbulence Synthesis
 </h1>
 
