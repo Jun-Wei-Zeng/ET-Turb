@@ -38,6 +38,7 @@
 
 ## &#128226; News
 
+- **June 2026:** The ET-Turb dataset was released on [Baidu Netdisk](https://pan.baidu.com/s/1VwCyHTAuQ7TY1afF--wmgA).
 - **March 2026:** ET-Turb was accepted by [CVPR 2026](https://cvpr.thecvf.com/Conferences/2026).
 - **March 2026:** The paper was released on [arXiv](https://arxiv.org/abs/2603.01398).
 
