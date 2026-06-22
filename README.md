@@ -29,7 +29,9 @@
   <a href="https://github.com/Jun-Wei-Zeng/ET-Turb">
     <img src="https://img.shields.io/badge/Code-GitHub-181717.svg?style=flat-square&logo=github" alt="Code">
   </a>
-  <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-f0ad4e.svg?style=flat-square" alt="Dataset coming soon">
+  <a href="https://pan.baidu.com/s/1VwCyHTAuQ7TY1afF--wmgA">
+    <img src="https://img.shields.io/badge/Dataset-Baidu%20Netdisk-2932E1.svg?style=flat-square" alt="Download dataset from Baidu Netdisk">
+  </a>
 </p>
 
 ---
@@ -44,8 +46,8 @@
 
 ## &#128230; Dataset
 
-> [!NOTE]
-> The ET-Turb dataset will be released.
+> [!IMPORTANT]
+> Download `ET_Turb.zip` from [Baidu Netdisk](https://pan.baidu.com/s/1VwCyHTAuQ7TY1afF--wmgA). Extraction code: `ba9x`.
 
 <p align="center">
   <strong>Parameter Sampling Ranges for ET-Turb Dataset Generation</strong><br>
