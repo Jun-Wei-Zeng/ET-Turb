@@ -1,6 +1,7 @@
-<h1 align="center">ET-Turb</h1>
-
-<h3 align="center">Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis</h3>
+<h1 align="center">
+  ET-Turb: Continuous Exposure-Time Modeling<br>
+  for Realistic Atmospheric Turbulence Synthesis
+</h1>
 
 <p align="center"><strong>CVPR 2026</strong></p>
 
@@ -123,15 +124,15 @@
       <td align="center">56.876</td>
     </tr>
     <tr>
-      <td align="center"><strong>ET-Turb</strong></td>
-      <td align="center"><strong>4.190</strong></td>
-      <td align="center"><strong>50.981</strong></td>
-      <td align="center"><strong>4.221</strong></td>
-      <td align="center"><strong>56.691</strong></td>
-      <td align="center"><strong>4.204</strong></td>
-      <td align="center"><strong>54.070</strong></td>
-      <td align="center"><strong>4.212</strong></td>
-      <td align="center"><strong>55.050</strong></td>
+      <td align="center">ET-Turb</td>
+      <td align="center">4.190</td>
+      <td align="center">50.981</td>
+      <td align="center">4.221</td>
+      <td align="center">56.691</td>
+      <td align="center">4.204</td>
+      <td align="center">54.070</td>
+      <td align="center">4.212</td>
+      <td align="center">55.050</td>
     </tr>
   </tbody>
 </table>
