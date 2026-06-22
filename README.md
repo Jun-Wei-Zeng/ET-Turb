@@ -29,7 +29,9 @@
   <a href="https://github.com/Jun-Wei-Zeng/ET-Turb">
     <img src="https://img.shields.io/badge/Code-GitHub-181717.svg?style=flat-square&logo=github" alt="Code">
   </a>
-  <img src="https://img.shields.io/badge/Dataset-Coming%20Soon-f0ad4e.svg?style=flat-square" alt="Dataset coming soon">
+  <a href="https://drive.google.com/file/d/1OrEvUV7i4LVMnRvY5kxMgvaeJE221QX2/view?usp=sharing">
+    <img src="https://img.shields.io/badge/Dataset-Google%20Drive-4285F4.svg?style=flat-square&logo=googledrive&logoColor=white" alt="Download dataset">
+  </a>
 </p>
 
 ---
@@ -44,8 +46,8 @@
 
 ## &#128230; Dataset
 
-> [!NOTE]
-> The ET-Turb dataset will be released.
+> [!IMPORTANT]
+> The ET-Turb dataset is available on [Google Drive](https://drive.google.com/file/d/1OrEvUV7i4LVMnRvY5kxMgvaeJE221QX2/view?usp=sharing).
 
 <p align="center">
   <strong>Parameter Sampling Ranges for ET-Turb Dataset Generation</strong><br>
