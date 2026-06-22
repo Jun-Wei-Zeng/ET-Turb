@@ -29,14 +29,6 @@ Star &#127775; us if you think it is helpful!
 
 - [ ] Release the ET-Turb dataset.
 
-## &#129504; Network Figure
-
-<div align="center">
-  <img src="pipeline.svg" alt="ET-MTF pipeline" width="95%">
-</div>
-
-ET-MTF models turbulence-induced blur as a continuous function of exposure-time. The pipeline decomposes turbulence degradation into geometric tilt and exposure-time-dependent blur, then derives a tilt-invariant PSF from ET-MTF and combines it with a spatially varying blur-width field.
-
 ## &#129303; Dataset Download
 
 | Dataset | Status |
@@ -62,6 +54,7 @@ Lower NIQE and BRISQUE scores are better.
   title={Continuous Exposure-Time Modeling for Realistic Atmospheric Turbulence Synthesis},
   author={Zeng, Junwei and Liang, Dong and Huang, Sheng-Jun and Zhan, Kun and Chen, Songcan},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={26678--26687},
   year={2026}
 }
 ```
